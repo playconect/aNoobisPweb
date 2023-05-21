@@ -1072,7 +1072,7 @@ echo "America/Sao_Paulo" > /etc/timezone &>/dev/null
 ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime &>/dev/null
 dpkg-reconfigure --frontend noninteractive tzdata &>/dev/null
 clear
-figlet "ALAN-PWEB" | lolcat
+figlet "ALAN-PWEB2" | lolcat
 echo -e "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓" | lolcat
 echo -e "\033[1;37m┃                    \033[38;5;118m ★ PAINEL \033[38;5;190mALAN\033[38;5;197m-\033[38;5;164mWE\033[38;5;203mB ★  \033[38;5;197m\033[1;37m                    ┃\E[0m"
 echo -e "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫" | lolcat
